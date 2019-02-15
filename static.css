@@ -1,0 +1,155 @@
+    body
+	{
+		background-color: #b3ffb3;
+	}
+	.maindiv
+	{
+		background-color:#00cccc;
+        margin:5%;
+        display:flex;
+        justify-content: space-around;
+        border-style: solid;
+	}
+	.subdiv1
+	{
+		background-color:#ff9999;
+		margin:10%;
+		text-align: center;
+		border-radius: 5%;
+		box-shadow: 2px 2px 2px 2px ;
+		width:25%;
+        height: 250px;
+	}
+	.subdiv11
+	{
+		margin: 4%;
+		border-radius: 5%;
+		box-shadow: 1px 1px 1px 1px;		
+}
+	.subdiv2
+	{
+		background-color: #ffff99;
+		margin:5%;
+		text-align: center;
+		border-radius: 5%;
+		box-shadow: 2px 2px 2px 2px ;
+		width:75%;
+		height: 650px;
+	}
+		img
+	{
+		height: 50%;
+		width: 30%;
+		margin-top: 5%;
+		border-radius: 50%;
+	}
+	ul
+	{
+		margin-left: 20%;
+	}
+	@media screen and (min-width: 320px) and (max-width: 480px) {
+		body
+	{
+		background-color: #b3ffb3;
+	}
+	.maindiv
+	{
+		background-color:#00cccc;
+        margin:2%;
+        display:inline-block;
+        justify-content: space-around;
+        border-style: solid;
+
+	}
+	.subdiv1
+	{
+		background-color:#ff9999;
+		margin:2%;
+		text-align: center;
+		border-radius: 5%;
+		box-shadow: 2px 2px 2px 2px ;
+		width:95%;
+        height: 30%;
+	}
+	.subdiv11
+	{
+		margin: 4%;
+		border-radius: 5%;		
+}
+	.subdiv2
+	{
+		background-color: #ffff99;
+		margin:2%;
+		text-align: center;
+		border-radius: 5%;
+		box-shadow: 2px 2px 2px 2px ;
+		width:96%;
+		height: 650px;
+	}
+		img
+	{
+		height: 50%;
+		width: 30%;
+		margin-top: 5%;
+		border-radius: 50%;
+	}
+	ul
+	{
+		margin-left: 20%;
+	}
+}
+	@media screen and (min-width: 481px) and (max-width: 720px) {
+		body
+	{
+		background-color: #b3ffb3;
+	}
+	.maindiv
+	{
+		background-color:#00cccc;
+        margin:2%;
+        display:inline-block;
+        justify-content: space-around;
+        border-style: solid;
+        width: 96%;
+
+	}
+	.subdiv1
+	{
+		display: flex;
+		flex-wrap:wrap;
+		background-color:#ff9999;
+		margin:2%;
+		text-align: center;
+		border-radius: 5%;
+		box-shadow: 2px 2px 2px 2px ;
+		width:95%;
+        height: 30%;
+	}
+	.subdiv11
+	{
+		margin: 4%;
+		border-radius: 5%;		
+    }
+	.subdiv2
+	{
+		background-color: #ffff99;
+		margin:2%;
+		text-align: center;
+		border-radius: 5%;
+		box-shadow: 2px 2px 2px 2px ;
+		width:96%;
+		height: 650px;
+	}
+		img
+	{
+		height: 50%;
+		width: 30%;
+		margin-top: 5%;
+		border-radius: 50%;
+	}
+	ul
+	{
+		margin-left: 20%;
+	}
+}
+}

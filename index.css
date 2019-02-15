@@ -1,0 +1,93 @@
+body
+	{
+		background-color: #b3ffb3;
+	}
+	.maindiv
+	{
+		background-color:#00cccc;
+        display: flex;
+        justify-content: space-around;
+        margin: 5%;
+        border-radius: 5%;
+	}
+	.subdiv
+	{
+		background-color:#ff9999;
+		margin: 5%;
+		text-align: center;
+		border-radius: 5%;
+		width:25%;
+		box-shadow: 2px 2px 2px 2px ;
+	}
+	img
+	{
+		height: 50;
+		width: 70%;
+		margin-top: 5%;
+		border-radius: 50%;
+	}
+@media screen and (min-width: 300px) and (max-width: 480px) {
+	body
+	{
+		background-color: pink;
+	}
+	.maindiv
+	{
+		background-color:#00cccc;
+        display: inline-block;
+        justify-content:space-around;
+        margin: 2%;
+        border-radius: 5%;
+        width: 94%;
+        padding: 2%
+	}
+	.subdiv
+	{
+	background-color:#ff9999;
+		margin: 2%;
+		text-align: center;
+		border-radius: 5%;
+		width:92%;
+		box-shadow: 2px 2px 2px 2px ;
+		padding: 2%
+	}
+	img
+	{
+		height: 50%;
+		width: 70%;
+		margin-top: 5%;
+		border-radius: 50%;
+	}
+
+}
+@media screen and (min-width: 481px) and (max-width: 700px) {
+body
+	{
+		background-color: #b3ffb3;
+	}
+	.maindiv
+	{
+		background-color:#00cccc;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 5%;
+        border-radius: 5%;
+	}
+	.subdiv
+	{
+		background-color:#ff9999;
+		margin: 5%;
+		text-align: center;
+		border-radius: 5%;
+		width:40%;
+		box-shadow: 2px 2px 2px 2px ;
+	}
+	img
+	{
+		height: 50;
+		width: 70%;
+		margin-top: 5%;
+		border-radius: 50%;
+	}
+}

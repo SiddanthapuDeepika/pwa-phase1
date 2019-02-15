@@ -1,0 +1,45 @@
+{
+	"profile":{
+		"img":"download.png",
+		"name":"ABC",
+		"roll":"7291",
+		"place":"kakinada"
+	},
+	"career":{
+		"info":"I want to explore my thoughts"
+	},
+	"education":[
+		{
+			"sno":"1",
+			"degree":"B.tech",
+			"institute":"X",
+			"per":"90",
+			"yop":"2018"
+		},
+		{
+			"sno":"2",
+			"degree":"Intermediate",
+			"institute":"Y",
+			"per":"88",
+			"yop":"2014"
+		},
+		{
+			"sno":"3",
+			"degree":"SSC",
+			"institute":"Z",
+			"per":"92",
+			"yop":"2012"
+		}
+	],
+	"languages":[
+{
+	"lang":"English"
+},
+{
+	"lang":"Telugu"
+},
+{
+	"lang":"Hindi"
+}
+	]
+}
